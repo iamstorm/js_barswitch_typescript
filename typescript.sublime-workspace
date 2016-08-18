@@ -1,0 +1,2779 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"J",
+				"JSON.parse\t(interop.js)"
+			],
+			[
+				"CLI",
+				"CLICK_SIDEBAR\t(sidebarswitch.js)"
+			],
+			[
+				"hello",
+				"hello0\t(Data.tsx)"
+			],
+			[
+				"C",
+				"CLICK_MAINBAR\t(constants.js)"
+			],
+			[
+				"Click",
+				"CLICK_SIDEBAR\twarning"
+			],
+			[
+				"import",
+				"import\tkeyword"
+			],
+			[
+				"onCl",
+				"onClickBar"
+			],
+			[
+				"oncl",
+				"onclick\tAttr"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"cla",
+				"class_\tClass"
+			],
+			[
+				"sour",
+				"source.c"
+			],
+			[
+				"matc",
+				"matchList"
+			],
+			[
+				"spl",
+				"splitlines\tfunction"
+			],
+			[
+				"fec",
+				"fetchFiles"
+			],
+			[
+				"no",
+				"normpath\tfunction"
+			],
+			[
+				"fom",
+				"format\tfunction"
+			],
+			[
+				"s",
+				"sublime"
+			],
+			[
+				"slf",
+				"self"
+			],
+			[
+				"s_m",
+				"sublime_error_message\tsublime.error_message"
+			],
+			[
+				"d_",
+				"def_function_decorator\tsnippet function decorator"
+			],
+			[
+				"seti",
+				"settings"
+			],
+			[
+				"for",
+				"for\tFor Loop"
+			],
+			[
+				"trans",
+				"transTemplate\t(Basic.py)"
+			],
+			[
+				"comm",
+				"commit_message"
+			],
+			[
+				"ans",
+				"answer_tempate\t(cmd_run.py)"
+			],
+			[
+				"transw",
+				"transAnswer"
+			],
+			[
+				"foric",
+				"forIter_ICompletion_in\tforIter x: .."
+			],
+			[
+				"loca",
+				"locals\tfunction"
+			],
+			[
+				"co",
+				"_context_message\tstatement"
+			],
+			[
+				"error",
+				"error_message\t(ErrorPanel.py)"
+			],
+			[
+				"mat",
+				"match\tfunction"
+			],
+			[
+				"d_u",
+				"def_function_supper_decorator\tsnippet function supper decorator"
+			],
+			[
+				"retu",
+				"returncode\tfunction"
+			],
+			[
+				"Uni",
+				"UnicodeDecodeError"
+			],
+			[
+				"Tex",
+				"TextCommand\t(cmd_list_current_dir.py)"
+			],
+			[
+				"def",
+				"deffunctiondecorator\tview.encoding"
+			],
+			[
+				"true",
+				"True\tkeyword"
+			],
+			[
+				"hasou",
+				"has_output"
+			],
+			[
+				"errp",
+				"errorPanel"
+			],
+			[
+				"retunc",
+				"returncodes\tfunction"
+			],
+			[
+				"ca",
+				"capture_stdout\tfunction"
+			],
+			[
+				"e",
+				"expandVariable\tfunction"
+			],
+			[
+				"en",
+				"enumerate\t(AutoEscapeCommand.py)"
+			],
+			[
+				"from",
+				"fromi\tfrom .. import .."
+			],
+			[
+				"sublime",
+				"sublime_plugin"
+			],
+			[
+				"fi",
+				"find\tview"
+			],
+			[
+				"mes",
+				"message_dialog\tsublime"
+			],
+			[
+				"set_timeout",
+				"set_timeout(${1:callback\t(sbc-api-my-sublime.sublime-settings)"
+			],
+			[
+				"settimeou",
+				"set_timeout\tsublime"
+			],
+			[
+				"settiem",
+				"sublime.set_timeout\t(sublime.api)"
+			],
+			[
+				"subli",
+				"sublime"
+			],
+			[
+				"rets",
+				"retStr"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"cre",
+				"createDOMFactory"
+			],
+			[
+				"__rem",
+				"__reactAutoBindMap"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Program Files (x86)/TYCADWeb/TYWeb/Center/UI/js/index.js",
+			"settings":
+			{
+				"buffer_size": 22043,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "import { CLICK_SIDEBAR } from '../constants'\nimport { data } from '../Data'\n\nconst initialState = {\n  items: data[data.activeMainbar],\n  active: data[data.activeMainbar][0]\n}\n\nexport default function update(state = initialState, action) {\n  if(action.type === CLICK_SIDEBAR) {\n    return { items: data[data.activeMainbar], active:data.activeSidebar }\n  }\n  return state\n}\n",
+			"file": "src/reducers/sidebarswitch.js",
+			"file_size": 386,
+			"file_write_time": 131157904484963901,
+			"settings":
+			{
+				"buffer_size": 372,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/containers/MainbarCon.tsx",
+			"settings":
+			{
+				"buffer_size": 560,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/reducers/barswitch.ts",
+			"settings":
+			{
+				"buffer_size": 560,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "typings/index.d.ts",
+			"settings":
+			{
+				"buffer_size": 449,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "webpack.config.js",
+			"settings":
+			{
+				"buffer_size": 1132,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 713,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/Data.ts",
+			"settings":
+			{
+				"buffer_size": 276,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "demo.json",
+			"settings":
+			{
+				"buffer_size": 198,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "style/site.css",
+			"settings":
+			{
+				"buffer_size": 437,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Anaconda Python Builder",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Anaconda Python Builder",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Anaconda Python Builder",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 243.0,
+		"last_filter": "di",
+		"selected_items":
+		[
+			[
+				"di",
+				"Package Control: Disable Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"diable",
+				"Package Control: Disable Package"
+			],
+			[
+				"setjo",
+				"Set Syntax: JSONByStorm"
+			],
+			[
+				"setjvs",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"setj",
+				"Set Syntax: JSONByStorm"
+			],
+			[
+				"setpl",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"setpy",
+				"Set Syntax: PythonByStorm"
+			],
+			[
+				"cpp",
+				"Set Syntax: CppByStorm"
+			],
+			[
+				"python",
+				"Set Syntax: PythonByStorm"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"setcpp",
+				"Set Syntax: CppByStorm"
+			],
+			[
+				"viewop",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"extr",
+				"PackageResourceViewer: Extract Package"
+			],
+			[
+				"converttouni",
+				"ConvertToUTF8: Reload with Encoding"
+			],
+			[
+				"scoph",
+				"Scope Hunter: Toggle Instant Scoper"
+			],
+			[
+				"convertou",
+				"ConvertToUTF8: Reload with Encoding"
+			],
+			[
+				"setyp",
+				"Set Syntax: PythonByStorm"
+			],
+			[
+				"scop",
+				"Scope Hunter: Toggle Instant Scoper"
+			],
+			[
+				"setjso",
+				"Set Syntax: JSONByStorm"
+			],
+			[
+				"gitst",
+				"Git: Status"
+			],
+			[
+				"status",
+				"Git: Status"
+			],
+			[
+				"setjon",
+				"Set Syntax: JSONByStorm"
+			],
+			[
+				"josnby",
+				"Set Syntax: JSONByStorm"
+			],
+			[
+				"html",
+				"HTMLBeautify"
+			],
+			[
+				"htm",
+				"HTMLBeautify"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"BracketHighlighter: Wrap Selections with Brackets"
+			],
+			[
+				"view",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"INSTAL",
+				"Package Control: Install Package"
+			],
+			[
+				"REM",
+				"Package Control: Remove Package"
+			],
+			[
+				"enab",
+				"Package Control: Enable Package"
+			],
+			[
+				"diabl",
+				"Package Control: Disable Package"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"setjson",
+				"Set Syntax: JSONByStorm"
+			],
+			[
+				"en",
+				"Package Control: Enable Package"
+			],
+			[
+				"setsyjos",
+				"Set Syntax: JSONByStorm"
+			],
+			[
+				"viewo",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"setjonby",
+				"Set Syntax: JSONByStorm"
+			],
+			[
+				"setcim",
+				"Set Syntax: C Improved"
+			],
+			[
+				"utf8",
+				"ConvertToUTF8: Reload with Encoding"
+			],
+			[
+				"setcbys",
+				"Set Syntax: CppByStorm"
+			],
+			[
+				"converto",
+				"ConvertToUTF8: Reload with Encoding"
+			],
+			[
+				"enable\t",
+				"Package Control: Enable Package"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"gitpu",
+				"Git: Push"
+			],
+			[
+				"gitqui",
+				"Git: Quick Commit"
+			],
+			[
+				"gitadd",
+				"Git: Add All"
+			],
+			[
+				"setsypy",
+				"Set Syntax: PythonByStorm"
+			],
+			[
+				"diab",
+				"Package Control: Disable Package"
+			],
+			[
+				"setpyt",
+				"Set Syntax: PythonByStorm"
+			],
+			[
+				"gitpush",
+				"Git: Push"
+			],
+			[
+				"gitqu",
+				"Git: Quick Commit"
+			],
+			[
+				"gita",
+				"Git: Add All"
+			],
+			[
+				"enabl",
+				"Package Control: Enable Package"
+			],
+			[
+				"setjab",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"setsyntaxjsonb",
+				"Set Syntax: JSONByStorm"
+			],
+			[
+				"gitpus",
+				"Git: Push"
+			],
+			[
+				"gitq",
+				"Git: Quick Commit"
+			],
+			[
+				"seth",
+				"Set Syntax: HTML"
+			],
+			[
+				"setsyn",
+				"Set Syntax: XML"
+			],
+			[
+				"gitstash",
+				"Git: Stash Changes"
+			],
+			[
+				"gitsu",
+				"Git: Status"
+			],
+			[
+				"gits",
+				"Git: Status"
+			],
+			[
+				"gitad",
+				"Git: Add All"
+			],
+			[
+				"gitco",
+				"Git: Commit"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"enab\t",
+				"Package Control: Enable Package"
+			],
+			[
+				"setstorm",
+				"Set Syntax: StormErrorPanel"
+			],
+			[
+				"setjsonb",
+				"Set Syntax: JSONByStorm"
+			],
+			[
+				"setsytaxstor",
+				"Set Syntax: StormErrorPanel"
+			],
+			[
+				"setsynterro",
+				"Set Syntax: StormErrorPanel"
+			],
+			[
+				"scopeh",
+				"Scope Hunter: Toggle Instant Scoper"
+			],
+			[
+				"setjs",
+				"Set Syntax: JSONByStorm"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"convertut",
+				"ConvertToUTF8: Reload with Encoding"
+			],
+			[
+				"enabe",
+				"Package Control: Enable Package"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"dia",
+				"Package Control: Disable Package"
+			],
+			[
+				"set tm",
+				"Set Syntax: tmTheme"
+			],
+			[
+				"setsyntmth",
+				"Set Syntax: tmTheme"
+			],
+			[
+				"setsynt",
+				"Set Syntax: XML"
+			],
+			[
+				"setpyth",
+				"Set Syntax: PythonByStorm"
+			],
+			[
+				"Package Control: e",
+				"Package Control: Enable Package"
+			],
+			[
+				"listpa",
+				"Package Control: List Packages"
+			],
+			[
+				"remv",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: en",
+				"Package Control: Enable Package"
+			],
+			[
+				"gitdiff",
+				"Git: Diff Current File"
+			],
+			[
+				"gitdifc",
+				"Git: Diff Current File"
+			],
+			[
+				"scopt",
+				"Scope Hunter: Toggle Instant Scoper"
+			],
+			[
+				"gitdiffcu",
+				"Git: Diff Current File"
+			],
+			[
+				"gitstu",
+				"Git: Status"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"gitres",
+				"Git: Reset (hard) HEAD"
+			],
+			[
+				"gitpull",
+				"Git: Pull"
+			],
+			[
+				"git ret",
+				"Git: Reset (hard) HEAD"
+			],
+			[
+				"gitre",
+				"Git: Reset (hard) HEAD"
+			],
+			[
+				"gitreset",
+				"Git: Reset (hard) HEAD"
+			],
+			[
+				"gitquic",
+				"Git: Quick Commit"
+			],
+			[
+				"setsytaxbys",
+				"Set Syntax: JSONByStorm"
+			],
+			[
+				"setsub",
+				"Set Syntax: Sublime Completions"
+			],
+			[
+				"setbys",
+				"Set Syntax: JSONByStorm"
+			],
+			[
+				"setsublimeco",
+				"Set Syntax: Sublime Completions"
+			],
+			[
+				"removp",
+				"Package Control: Remove Package"
+			],
+			[
+				"removepa",
+				"Package Control: Remove Package"
+			],
+			[
+				"viewope",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"python3",
+				"Set Syntax: Python3"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"setjsonby",
+				"Set Syntax: JSONByStorm"
+			],
+			[
+				"json",
+				"Set Syntax: JSONByStorm"
+			],
+			[
+				"viewpro",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"viewres",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"sublime.erro",
+				"Snippet: sublime.error_message"
+			],
+			[
+				"Snippet: sublime.err",
+				"Snippet: sublime.error_message"
+			],
+			[
+				"vie",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"setjav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"Package Control: disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"setpytby",
+				"Set Syntax: PythonByStorm"
+			],
+			[
+				"setjavs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"viewopenr",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 514.0
+	},
+	"console":
+	{
+		"height": 329.0,
+		"history":
+		[
+			"sublime.log_commands(False)",
+			"sublime.log_commands(True)",
+			"sublime.log_commands(False)",
+			"sublime.log_commands(True)",
+			"sublime.log_commands(False)",
+			"sublime.log_commands(True)",
+			"sublime.log_commands(False)",
+			"sublime.log_commands(True)",
+			"sublime.log_commands(False)",
+			"sublime.log_commands(True)",
+			"sublime.log_commands(False)",
+			"sublime.log_commands(True)",
+			"sublime.log_commands(False)",
+			"sublime.log_commands(True)",
+			"sublime.log_commands(False)",
+			"sublime.log_commands(True)",
+			"sublime.log_commands(False)",
+			"sublime.log_commands(True)",
+			"sublime.log_commands(False)",
+			"sublime.log_commands(True)",
+			"sublime.log_commands(False)",
+			"sublime.log_commands(True)",
+			"sublime.log_commands(False)",
+			"sublime.log_commands(True)",
+			"sublime.log_commands(False)",
+			"sublime.log_commands(True)",
+			"sublime.log_commands(False)",
+			"sublime.log_commands(True)",
+			"sublime.active_window().run_command(\"userstorm_error_panel_flush\", {\"data\": \"dd\"})",
+			"sublime.active_window().run_command(\"usersdd_error_panel_flush\", {\"data\": \"dd\"})",
+			"sublime.active_window().run_command(\"userstorm_error_panel_flush\", {\"data\": \"dd\"})",
+			"sublime.log_commands(True)",
+			"sublime.log_commands(False)",
+			"sublime.log_commands(True)",
+			"view.settings().erase(\"color_scheme\")",
+			"sublime.log_commands(True)",
+			"view.settings().erase(\"color_scheme\")",
+			"sublime.log_commands(False)",
+			"sublime.log_commands(True)",
+			"import socket; s = socket.socket(socket.AF_INET, socket.SOCK_STREAM); s.connect(('localhost', 55974)); s.send(bytes('Hello World!\\n', 'utf8')); s.close()",
+			"sublime.log_commands(True)",
+			"sublime.log_commands(False)",
+			"sublime.log_commands(True)",
+			"sublime.log_commands(False)",
+			"sublime.log_commands(True)",
+			"sublime.log_commands(False)",
+			"sublime.log_commands(True)",
+			"sublime.log_commands(False)",
+			"sublime.log_commands(True)",
+			"sublime.log_messages(True)",
+			"sublime.log_message(True)",
+			"os.environ.items()",
+			"import os",
+			"os.environ",
+			".eslintignore",
+			"os.system('cls')",
+			"open",
+			"cmd",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": true,
+		"side_bar_visible": true,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/Tmp/typescript",
+		"/E/Tmp/typescript/src",
+		"/E/Tmp/typescript/src/actions",
+		"/E/Tmp/typescript/src/components",
+		"/E/Tmp/typescript/src/containers",
+		"/E/Tmp/typescript/src/reducers",
+		"/E/Tmp/typescript/style",
+		"/E/Tmp/typescript/typings",
+		"/E/Tmp/typescript/typings/globals"
+	],
+	"file_history":
+	[
+		"/E/Tmp/typescript/src/index.tsx",
+		"/E/Tmp/typescript/src/containers/SidebarCon.tsx",
+		"/C/Program Files (x86)/TYCADWeb/TYWeb/Center/UI/js/interop.js",
+		"/C/Program Files (x86)/TYCADWeb/TYWeb/Center/UI/index.html",
+		"/E/Tmp/typescript/src/components/Sidebar.tsx",
+		"/E/Tmp/typescript/src/components/Mainbar.tsx",
+		"/E/Tmp/typescript/src/components/App.tsx",
+		"/E/Tmp/typescript/src/containers/MainbarCon.tsx",
+		"/E/Tmp/typescript/src/reducers/barswitch.ts",
+		"/E/Tmp/typescript/index.html",
+		"/E/Tmp/typescript/src/Data.tsx",
+		"/E/Tmp/typescript/src/actions/barswitch.ts",
+		"/E/Tmp/typescript/src/constants.ts",
+		"/E/Tmp/typescript/tsconfig.json",
+		"/E/Tmp/typescript/src/components/Content.tsx",
+		"/E/Tmp/typescript/typings/globals/react/index.d.ts",
+		"/E/Tmp/typescript/package.json",
+		"/E/Tmp/typescript/typings/index.d.ts",
+		"/E/Tmp/typescript/src/components/Data.tsx",
+		"/E/Tmp/typescript/webpack.config.js",
+		"/E/Tmp/typescript/style/site.css",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/UserJavascript/Default (Windows).sublime-keymap",
+		"/E/Tmp/typescript/src/components/test.ts",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/UserCpp/Default (Windows).sublime-keymap",
+		"/E/Tmp/typescript/src/components/test.js",
+		"/E/electron/TypeScriptSamples/react-flux-babel-karma/webpack.config.js",
+		"/E/electron/TypeScriptSamples/react-flux-babel-karma/package.json",
+		"/E/Tmp/typescript/typings.json",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/UserDebug/Default (Windows).sublime-keymap",
+		"/E/Tmp/typescript/src/components/Hello.tsx",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/UserLinter/tslint.json",
+		"/E/electron/material-ui/examples/webpack-example/webpack-dev-server.config.js",
+		"/E/ForDevEnv/experiment/style/ty-main.css",
+		"/E/electron/TypeScriptSamples/simple/README.md",
+		"/E/electron/TypeScriptSamples/todomvc/tsconfig.json",
+		"/E/electron/TypeScriptSamples/simple/tsconfig.json",
+		"/E/electron/TypeScriptSamples/simple/animals.ts",
+		"/E/electron/material-ui/examples/webpack-example/src/www/index.html",
+		"/E/electron/material-ui/examples/webpack-example/src/app/app.js",
+		"/E/electron/material-ui/examples/webpack-example/src/www/main.css",
+		"/E/electron/material-ui/examples/webpack-example/src/app/MainBar.js",
+		"/E/electron/material-ui/examples/webpack-example/src/app/Main.js",
+		"/E/electron/TypeScriptSamples/README.md",
+		"/E/cef/ceftest/cefclient/console.log",
+		"/E/electron/material-ui/src/svg-icons/file/folder.js",
+		"/E/electron/material-ui/src/svg-icons/hardware/cast.js",
+		"/E/electron/material-ui/src/svg-icons/hardware/mouse.js",
+		"/E/electron/material-ui/src/Avatar/Avatar.js",
+		"/E/electron/material-ui/examples/webpack-example/package.json",
+		"/E/electron/material-ui/src/Avatar/index.js",
+		"/E/Project/TY/MR/室外仿真/planet/达州UTM84/数据/heights/index.txt",
+		"/E/ForDevEnv/experiment/test.html",
+		"/e/fordevenv/palette/ref/codetip/mfc download.ref.md",
+		"/e/fordevenv/palette/ref/gis/baidu.ref.md",
+		"/E/electron/material-ui/package.json",
+		"/E/ForDevEnv/palette/ref/codetip/proj4.ref.md",
+		"/D/迅雷下载/baidumapv2.0.3/demo.html",
+		"/D/迅雷下载/baidumapv2.0.3/js/findtiles.js",
+		"/e/fordevenv/palette/ref/env/path.ref.md",
+		"/C/Users/Administrator/Desktop/1.js",
+		"/E/Tmp/test.js",
+		"/E/Code/TY_Product/test/ConsoleORM/packages/NHibernate.4.0.0.4000/ConfigurationTemplates/MSSQL.cfg.xml",
+		"/C/Users/Administrator/Desktop/Tests/ABC.hbm.xml",
+		"/C/Users/Administrator/Desktop/MSSQL.cfg.xml",
+		"/E/ForDevEnv/experiment/test.py",
+		"/E/ForDevEnv/palette/ref/gis/coords.md",
+		"/E/Tmp/test.py",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Storm.tmTheme",
+		"/C/Users/Administrator/Desktop/Tests/DbScripts/MsSql2008DialectLinqReadonlyCreateScript.sql",
+		"/C/Users/Administrator/Desktop/Tests/NHibernate.DomainModel.xml",
+		"/E/Project/TY/LPD/surveydata.json",
+		"/E/ForDevEnv/experiment/testtrans.py",
+		"/e/fordevenv/palette/ref/codetip/endian.ref.md",
+		"/E/Project/TY/MR/室外仿真/planet/达州UTM84/数据/buildVector/buildings",
+		"/E/Project/TY/MR/室外仿真/planet/达州UTM84/数据/buildVector/attribute",
+		"/E/Project/TY/MR/室外仿真/交流数据/来自SIRADEL王涛/巴中5米三维14/三维/buildVector/buildings",
+		"/E/Project/TY/MR/室外仿真/交流数据/来自SIRADEL王涛/巴中5米三维14/三维/buildVector/attribute",
+		"/E/Project/TY/MR/室外仿真/交流数据/来自SIRADEL王涛/巴中5米三维14/三维/Vector/Main_Street.vec",
+		"/E/Project/TY/MR/室外仿真/交流数据/来自SIRADEL王涛/巴中5米三维14/三维/Clutter/Domo.b",
+		"/E/ForDevEnv/palette/ref/codetip/mfc download.ref.md",
+		"/C/Users/Administrator/AppData/Local/Temp/Rar$DIa0.697/StdioFileEx.cpp",
+		"/E/ForDevEnv/palette/ref/codetip/mfc download.md",
+		"/E/Tmp/test.cpp",
+		"/F/迅雷下载/googleMap离线/googleMap离线demo/localisedChongqing.html",
+		"/F/迅雷下载/googleMap离线/googleMap离线demo/mapapi.js",
+		"/F/迅雷下载/googleMap离线/googleMap离线demo/mapfiles/api-3/8/2/map.js",
+		"/F/迅雷下载/googleMap离线/googleMap离线demo/mapfiles/api-3/8/2/marker.js",
+		"/E/Project/TY/MR/室外仿真/planet/达州UTM84/数据/Vector/Main_Road.vec",
+		"/E/Project/TY/MR/室外仿真/planet/达州UTM84/数据/Vector/Subway.vec",
+		"/E/Project/TY/MR/室外仿真/planet/达州UTM84/数据/Vector/River.vec",
+		"/E/Project/TY/MR/室外仿真/planet/达州UTM84/三维/buildings/index.txt",
+		"/E/Project/TY/ICD/三维仿真/来自SIRADEL王涛/Planet_SIRADEL/Vector3D/index.txt",
+		"/E/Project/TY/MR/室外仿真/planet/达州UTM84/三维/buildings/buildings.b",
+		"/E/ForDevEnv/experiment/testtrans.js",
+		"/E/Project/TY/ICD/三维仿真/来自SIRADEL王涛/Planet_SIRADEL/Vector3D/buildings",
+		"/E/ForDevEnv/tip/main.todo",
+		"/E/ForDevEnv/palette/ref/codetip/endian.ref.md",
+		"/E/Project/TY/ICD/三维仿真/来自SIRADEL王涛/MapInfo_SIRADEL/Vector3D/index.xml",
+		"/E/Project/TY/ICD/三维仿真/来自符安君/巴中5米三维14/三维/heights/index.txt",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/UserCpp/snippets/classes/class.sublime-snippet",
+		"/E/Project/TY/ICD/三维仿真/来自SIRADEL王涛/MapInfo_SIRADEL/Vector3D/menu.dat",
+		"/E/Project/TY/MR/室外仿真/planet/达州UTM84/三维/buildVector/buildings",
+		"/E/Project/TY/ICD/三维仿真/来自SIRADEL王涛/巴中5米三维14/三维/buildVector/buildings",
+		"/E/Project/TY/ICD/三维仿真/来自SIRADEL王涛/巴中5米三维14/三维/buildVector/attribute",
+		"/e/fordevenv/palette/ref/clang/default.ref.md",
+		"/e/fordevenv/palette/ref/codetip/exception.ref.md",
+		"/C/Users/Administrator/Desktop/新建文件夹/三维/buildings/buildings.b",
+		"/C/Users/Administrator/Desktop/新建文件夹/三维/buildVector/buildings",
+		"/E/ForDevEnv/tip/tyrdr2d.todo",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/UserCpp/snippets/loops/for.sublime-snippet",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/UserSmartSemiColon/Default (Windows).sublime-keymap",
+		"/E/Project/TY/ICD/三维仿真/来自符安君/巴中5米三维14/三维/Vector/National_Road.vec",
+		"/E/Project/TY/ICD/三维仿真/来自符安君/巴中5米三维14/三维/Clutter/Domo.b",
+		"/C/Users/Administrator/.gitconfig",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/UserSmartCaret/Default (Windows).sublime-keymap",
+		"/e/fordevenv/palette/ref/errorhandle/exception.ref.md",
+		"/e/fordevenv/palette/ref/manifest/administrator.ref.md",
+		"/E/ForDevEnv/palette/ref/codetip/enum.ref.md",
+		"/E/ForDevEnv/palette/ref/manifest/administrator.ref.md",
+		"/E/Code/TY_Product/ThirdParty/OpenSceneGraph-3.4.0/examples/osgautocapture/osgautocapture.cpp",
+		"/E/Code/TY_Product/ThirdParty/OpenSceneGraph-3.4.0/examples/osgautotransform/osgautotransform.cpp",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/E/Code/TY_Product/ThirdParty/OpenSceneGraph-3.4.0/examples/osgintersection/osgintersection.cpp",
+		"/F/soft/arcgis/破解文件ArcGIS 9.3/Crack/Crack/license_server_setup/37102011.efl9",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/UserSyntax/CppByStorm.sublime-syntax",
+		"/E/ForDevEnv/palette/ref/errorhandle/exception.ref.md",
+		"/F/soft/arcgis/破解.txt"
+	],
+	"find":
+	{
+		"height": 72.0
+	},
+	"find_in_files":
+	{
+		"height": 132.0,
+		"where_history":
+		[
+			"C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\",
+			"E:\\Code\\Code\\ARXUtils,*.cpp",
+			"E:\\Code\\STFC2007,*.cpp",
+			"E:\\Code\\STFC2007,*.c++",
+			"E:\\Code\\STFC2007",
+			"C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\SublimeLinter",
+			"C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UserPlugins",
+			"C:\\Users\\Administrator\\.sublime\\history\\C\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UserPlugins\\",
+			"C:\\Users\\Administrator\\.sublime\\history\\C\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UserPlugins\\MUtils",
+			"C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\",
+			"C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\SublimeClang",
+			"C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\",
+			"<project>,<open folders>,<open files>,<current file>,*.py,*.c",
+			"{project}",
+			"C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\",
+			"C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\Anaconda",
+			"C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\",
+			"C:\\Users\\Administrator\\Desktop\\Deployment\\室分设计软件-网络在线版",
+			"C:\\Program Files (x86)\\Sublime Text 3",
+			"C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\Theme - Asphalt",
+			"E:\\Code\\Web\\ReactDev\\src"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"{\n",
+			"assign",
+			"activeMainbar",
+			"loadProTypeInfo",
+			"clickType",
+			"GetProductList",
+			"external",
+			"show_slt_cad_panel",
+			"click_slt_cad",
+			"external",
+			"\\",
+			"Router",
+			"\\",
+			"{\\n\\t$0\\n}",
+			"AppProps",
+			"array",
+			"prop",
+			"mainbar",
+			"paddingTop",
+			"getMuiTheme",
+			"muiTheme",
+			"accent1Color",
+			"MuiThemeProvider",
+			"handleTouchTap",
+			"handleRequestClose",
+			"standardActions",
+			"handleRequestClose",
+			"state",
+			"primary",
+			"recompose",
+			"callout",
+			"Line_string",
+			"Point",
+			"lineString",
+			"Polygon",
+			"，",
+			"NodeNumber",
+			"\"",
+			"findAllTiles",
+			"downloadBaiduTiles",
+			"findAllTiles",
+			"convertLL2MC",
+			"m_nFileCodePage",
+			"=[*]",
+			"class_",
+			"rule-impl-block",
+			"meta.tip.embed",
+			"rule-impl-block",
+			"step-impl-block",
+			"step-impl-inner-block",
+			"step-flow-block",
+			"__step-impl-statement",
+			"__rule-impl-statement-compact",
+			"__step-impl-statement",
+			"__rule-impl-statement-compact",
+			"__step-impl-statement",
+			"__rule-impl-statement-compact",
+			"punctuation.definition.brace.impl",
+			"punctuation.definition.brace.impl.begin",
+			"rule-impl-block",
+			"rule-declaration-preprocessor-safe-sure",
+			"rule-impl-block",
+			"rule-impl-statement",
+			"rule-impl-block",
+			"punctuation.definition.brace.impl.begin",
+			"step-impl-inner-block",
+			"step-impl-block",
+			"step-impl-inner-block",
+			"step-impl-block",
+			"rule-impl-block",
+			"step-impl-block",
+			"rule-impl-block",
+			"step-expression-statement",
+			"rule-statement-expression",
+			"rule-impl-statement",
+			"rule-declaration-preprocessor-safe-sure",
+			"rule-definition-function-sure",
+			"svCtxType1",
+			"rule-definition-function-sure",
+			"rule-declaration-preprocessor-safe-sure",
+			"rule-impl-statement",
+			"rule-statement-flow",
+			"rule-statement-flow-for",
+			"rule-definition-function-sure",
+			"sure",
+			"rule-statement-expression",
+			"rule-impl-statement",
+			"rule-declaration-preprocessor-safe-notsure",
+			"rule-definition-function-notsure",
+			"rule-definition-function-sure",
+			"sure",
+			"svCtxType",
+			"rule-definition-function-sure",
+			"rule-definition-function-notsure",
+			"notsure",
+			"rule-definition-function",
+			"notsure",
+			"rule-definition-function",
+			"rule-declaration-preprocessor-safe-sure",
+			"rule-statement-flow-switch",
+			"switch",
+			"case",
+			"rule-statement-flow-for",
+			"rule-declaration-preprocessor-safe-sure",
+			"sure",
+			"lex-declaration-type",
+			"__lex-chain-type",
+			"lex-variable",
+			"rule-statement-case",
+			"captures",
+			";",
+			"- include: step-impl-block",
+			"step-impl-block",
+			"rule-impl-block",
+			"- match: (?=\\s*\\{)",
+			"rule-statement-flow-switch",
+			"ule-statement-flow",
+			"rule-statement-case",
+			"case",
+			"rule-statement-flow-switch",
+			"source.c++ meta.definition.function keyword.control.c",
+			"lex-control",
+			"switch",
+			"rule-statement-flow-switch",
+			"rule-statement-flow",
+			"rule-statement-expression",
+			"rule-impl-statement",
+			"__step-impl-statement"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\"",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Program Files (x86)/TYCADWeb/TYWeb/Center/UI/js/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 22043,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2569,
+								2569
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"apply_syntax_touched": true,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										3372,
+										3373
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										2479,
+										2480
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"bs_sintax": "typescript",
+							"buffer_scroll_name": "e7199953",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Storm (SL).tmTheme",
+							"is_init_dirty_state": false,
+							"side_bar_folders_auto_load_folder": 1,
+							"spell_check": false,
+							"syntax": "Packages/UserJavascript/TypeScript.sublime-syntax",
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": true,
+								"indentSize": 4,
+								"tabSize": 4
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2823.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/reducers/sidebarswitch.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 372,
+						"regions":
+						{
+							"bookmarks":
+							{
+								"flags": 144,
+								"icon": "bookmark",
+								"regions":
+								[
+								],
+								"scope": "string"
+							}
+						},
+						"selection":
+						[
+							[
+								371,
+								371
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"apply_syntax_touched": true,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										370,
+										371
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										237,
+										238
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"bs_sintax": "typescript",
+							"buffer_scroll_name": "73d4864b",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Storm (SL).tmTheme",
+							"is_init_dirty_state": true,
+							"open_with_edit": true,
+							"origin_encoding": "ASCII",
+							"side_bar_folders_auto_load_folder": 1,
+							"spell_check": false,
+							"syntax": "Packages/UserJavascript/TypeScript.sublime-syntax",
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": true,
+								"indentSize": 4,
+								"tabSize": 4
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/containers/MainbarCon.tsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 560,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								185,
+								185
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"apply_syntax_touched": true,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"bs_sintax": "typescript",
+							"buffer_scroll_name": "efe3e014",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Storm (SL).tmTheme",
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"side_bar_folders_auto_load_folder": 1,
+							"spell_check": false,
+							"syntax": "Packages/UserSyntax/TypeScript.sublime-syntax",
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": true,
+								"indentSize": 4,
+								"tabSize": 4
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/reducers/barswitch.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 560,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								459,
+								465
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"apply_syntax_touched": true,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										523,
+										524
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										465,
+										466
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"bs_sintax": "typescript",
+							"buffer_scroll_name": "a4a766c7",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Storm (SL).tmTheme",
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"side_bar_folders_auto_load_folder": 1,
+							"spell_check": false,
+							"syntax": "Packages/UserSyntax/TypeScript.sublime-syntax",
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": true,
+								"indentSize": 4,
+								"tabSize": 4
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 202.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "typings/index.d.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 449,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								407,
+								407
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"apply_syntax_touched": true,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"bs_sintax": "typescript",
+							"buffer_scroll_name": "5e6050b3",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Storm (SL).tmTheme",
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"side_bar_folders_auto_load_folder": 1,
+							"spell_check": false,
+							"syntax": "Packages/UserSyntax/TypeScript.sublime-syntax",
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": true,
+								"indentSize": 4,
+								"tabSize": 4
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "webpack.config.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1132,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								734,
+								734
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"apply_syntax_touched": true,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1129,
+										1130
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										17,
+										18
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"bs_sintax": "typescript",
+							"buffer_scroll_name": "310281e6",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Storm (SL).tmTheme",
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"side_bar_folders_auto_load_folder": 1,
+							"spell_check": false,
+							"syntax": "Packages/UserJavascript/TypeScript.sublime-syntax",
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": true,
+								"indentSize": 4,
+								"tabSize": 4
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 352.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 713,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								154,
+								154
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"apply_syntax_touched": true,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										150,
+										153
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/tag.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										135,
+										138
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"bs_sintax": "html",
+							"buffer_scroll_name": "2230f813",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Storm (SL).tmTheme",
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"side_bar_folders_auto_load_folder": 1,
+							"spell_check": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 254.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/Data.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 276,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								242,
+								242
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"apply_syntax_touched": true,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										241,
+										242
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										200,
+										201
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"bs_sintax": "typescript",
+							"buffer_scroll_name": "7cec278b",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Storm (SL).tmTheme",
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"side_bar_folders_auto_load_folder": 1,
+							"spell_check": false,
+							"syntax": "Packages/UserSyntax/TypeScript.sublime-syntax",
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": true,
+								"indentSize": 4,
+								"tabSize": 4
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 65.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "demo.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 198,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								198,
+								198
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"apply_syntax_touched": true,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"bs_sintax": "jsonbystorm",
+							"buffer_scroll_name": "1b8d6c7d",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Storm (SL).tmTheme",
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"side_bar_folders_auto_load_folder": 1,
+							"spell_check": false,
+							"syntax": "Packages/UserSyntax/JSONByStorm.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "style/site.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 437,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								306,
+								306
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"apply_syntax_touched": true,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										305,
+										306
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										289,
+										290
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"bs_sintax": "css",
+							"buffer_scroll_name": "1884b515",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Storm (SL).tmTheme",
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"side_bar_folders_auto_load_folder": 1,
+							"spell_check": false,
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": true,
+								"indentSize": 4,
+								"tabSize": 4
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 185.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.clang":
+	{
+		"height": 150.0
+	},
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 180.0
+	},
+	"output.find_results":
+	{
+		"height": 202.0
+	},
+	"output.git":
+	{
+		"height": 258.0
+	},
+	"output.gotodocumentation":
+	{
+		"height": 314.0
+	},
+	"output.refwindow":
+	{
+		"height": 174.0
+	},
+	"output.scope_viewer":
+	{
+		"height": 150.0
+	},
+	"output.storm":
+	{
+		"height": 215.0
+	},
+	"output.userPlugin":
+	{
+		"height": 150.0
+	},
+	"output.userPlugins":
+	{
+		"height": 0.0
+	},
+	"output.userstorm":
+	{
+		"height": 397.0
+	},
+	"output.xxx":
+	{
+		"height": 150.0
+	},
+	"pinned_build_system": "",
+	"project": "typescript.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"F:\\soft\\arcgis\\破解.txt"
+			],
+			[
+				"err",
+				"ErrorPanel.py"
+			],
+			[
+				"an",
+				"cmd_another_palette.py"
+			],
+			[
+				"reactcl",
+				"src\\isomorphic\\classic\\class\\ReactClass.js"
+			],
+			[
+				".eslintignore",
+				".eslintignore"
+			],
+			[
+				"reac",
+				"build\\modules\\ReactClass.js"
+			],
+			[
+				"index.ht",
+				"docs\\blog\\index.html"
+			],
+			[
+				"html.js",
+				"node_modules\\cover\\reporters\\html.js"
+			],
+			[
+				"react",
+				"build\\modules\\ReactDOM.js"
+			],
+			[
+				"index.h",
+				"docs\\blog\\index.html"
+			],
+			[
+				"index.htm",
+				"docs\\blog\\index.html"
+			],
+			[
+				"indext.",
+				"examples\\basic-commonjs\\index.html"
+			],
+			[
+				"reactdom",
+				"build\\modules\\ReactDOM.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "bab",
+		"selected_items":
+		[
+			[
+				"bab",
+				"E:\\Tmp\\babel\\babel.sublime-project"
+			],
+			[
+				"ba",
+				"E:\\Tmp\\babel\\babel.sublime-project"
+			],
+			[
+				"exp",
+				"E:\\ForDevEnv\\sublimeProject\\experiment.sublime-project"
+			],
+			[
+				"mate",
+				"E:\\electron\\material-ui\\examples\\webpack-example\\material-example.sublime-project"
+			],
+			[
+				"",
+				"E:\\electron\\react-router-redux\\examples\\basic\\reduxrouterbasic.sublime-project"
+			],
+			[
+				"redux",
+				"E:\\electron\\react-router-redux\\examples\\basic\\reduxrouterbasic.sublime-project"
+			],
+			[
+				"act",
+				"E:\\electron\\react-router\\examples\\react-router.sublime-project"
+			],
+			[
+				"reacct",
+				"E:\\electron\\react-router\\examples\\reactexample.sublime-project"
+			],
+			[
+				"reactro",
+				"E:\\electron\\react-router\\examples\\react-router.sublime-project"
+			],
+			[
+				"react",
+				"E:\\electron\\react-router\\examples\\reactexample.sublime-project"
+			],
+			[
+				"ex",
+				"E:\\ForDevEnv\\sublimeProject\\experiment.sublime-project"
+			],
+			[
+				"ma",
+				"E:\\electron\\material-ui\\examples\\webpack-example\\material-example.sublime-project"
+			],
+			[
+				"ec",
+				"E:\\ForDevEnv\\sublimeProject\\experiment.sublime-project"
+			],
+			[
+				"reactex",
+				"E:\\electron\\react-router\\examples\\reactexample.sublime-project"
+			],
+			[
+				"sublime",
+				"E:\\ForDevEnv\\sublimeProject\\SublimeStorm.sublime-project"
+			],
+			[
+				"try",
+				"E:\\try\\tryOsg.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "require",
+		"selected_items":
+		[
+			[
+				"require",
+				"require"
+			],
+			[
+				"invariant",
+				"invariant"
+			]
+		],
+		"width": 941.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 248.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

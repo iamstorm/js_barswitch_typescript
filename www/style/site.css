@@ -1,0 +1,26 @@
+body, div{ margin: 0 }
+ul,li, button { margin: 0 ; padding: 0; list-style: none;box-sizing: border-box;}
+* {box-sizing: content-box;}
+
+div.Mainbar li.active, div.Sidebar li.active { border: 3px solid red; }
+
+div.Mainbar { background-color: #D9962E; width: 630px; }
+div.Mainbar { overflow: hidden; }
+div.Mainbar ul{ margin-left: 110px; padding: 5px 0 }
+div.Mainbar li { float: left; width: 100px; background: #469CD6;
+border: 3px solid #3772D1; border-radius: 5px;margin-left: 10px; display: inline-block;}
+div.Mainbar li a { width: 100%; text-decoration: none; height:40px; line-height: 40px; text-align: center; display: inline-block;color: #FFF;font-weight: bold;}
+
+div.Mainbar button {  background: #3772D1; color: #FFF;width: 100px; height:40px; line-height: 40px; margin-left: 10px;border-radius: 5px;  }
+
+div.ContentBody {clear:both; overflow: hidden; width: 630px;background-color: #D9962E;}
+div.Sidebar { float:left; background-color: #D9962E; }
+div.Sidebar { overflow: hidden; }
+div.Sidebar li { width: 100px; background: #40A14A;
+border: 3px solid #9E723C; border-radius: 5px;margin: 0 0 10px 10px; }
+div.Sidebar li a { width: 100%; text-decoration: none; height:40px; line-height: 40px; text-align: center; display: inline-block;color: #FFF;font-weight: bold;}
+
+div.content iframe { width: 495px; }
+
+div.content { float: left; width: 500px; margin: 10px 0 10px 10px}
+.tabs-title {  font-size:18px;  }
